@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.otf") format("otf"),
+    url("../fonts/Helvetica.ttf") format("ttf"),
+    url("../fonts/Helvetica.woff") format("woff"),
+    url("../fonts/Helvetica.woff2") format("woff2");
+}
+*,body{
+    font-family: "Helvetica";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,li,ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
