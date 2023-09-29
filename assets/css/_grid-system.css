@@ -53,6 +53,7 @@
 
     }
 }
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .col-sm-1 {
         width: 8.33%;
@@ -108,6 +109,7 @@
 
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .col-md-1 {
         width: 8.33%;
@@ -163,6 +165,7 @@
 
     }
 }
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .col-lg-1 {
         width: 8.33%;
@@ -218,7 +221,8 @@
 
     }
 }
-@media screen and (min-width: 1200px) and (max-width: 1400px)  {
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
     .col-xl-1 {
         width: 8.33%;
     }
@@ -273,7 +277,8 @@
 
     }
 }
-@media screen and (min-width: 1400px)  {
+
+@media screen and (min-width: 1400px) {
     .col-xxl-1 {
         width: 8.33%;
     }
@@ -328,13 +333,76 @@
 
     }
 }
-.container-fluid{
+
+.container-fluid {
     width: 100%;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
-.row{
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 0 15px;
+}
+
+.bg-primary {
+    background-color: #0D6EFD;
+}
+
+.bg-secondary {
+    background-color: #6C757D;
+}
+
+.bg-success {
+    background-color: #198754;
+}
+
+.bg-danger {
+    background-color: #DC3545;
+}
+
+.bg-warning {
+    background-color: #FFC107;
+}
+
+.bg-info {
+    background-color: #0DCAF0;
+}
+
+.bg-light {
+    background-color: #F8F9FA;
+}
+
+.bg-dark {
+    background-color: #212529;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.h-100 {
+    height: 100vh;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.h-25 {
+    height: 25vh;
 }
